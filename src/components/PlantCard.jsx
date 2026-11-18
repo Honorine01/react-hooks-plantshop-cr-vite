@@ -7,7 +7,7 @@ function PlantCard({ plant, onSoldOut }) {
 
       <h4>{plant.name}</h4>
 
-      <p>Price: ${plant.price}</p>
+      <p>Price: {plant.price}</p>
 
       {plant.soldOut ? (
         <button disabled>Out of Stock</button>
